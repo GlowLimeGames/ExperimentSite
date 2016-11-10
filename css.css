@@ -145,3 +145,13 @@ a.menu:visited{
     text-decoration: none;
     font-size: 28pt;
 }
+
+.nav-left{
+    display: inline-block;
+    float: left;
+    padding: 1em;
+}
+
+.nav-left img {
+    height: 100px;
+}
