@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Alien;
+    src: url(font/Archistico_Simple.ttf);
+}
+
+body{
+    background-image:url(img/bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img#header{
+    width: 78%;
+    height: 78%;
+    margin: 0 auto;
+}
+
+div#menu{
+    color: #fff;
+    font-family: Alien, sans-serif;
+    font-size: 24pt;
+    margin: 0 auto;
+}
+
+h1#gamelink{
+    color: rgb(0, 77, 0);
+    font-family: Alien, sans-serif;
+    text-decoration: underline;
+}
+
+img#title{
+    margin: 2%;
+    width: 85%;
+}
+
+img#inst{
+    margin-top: 20px;
+}
+
+div#top {
+   position: relative;
+   margin-left: 500px;
+	}
+div#left {
+    position:absolute;
+    margin-left:0px; 
+    margin-top:-25px;
+}
+div#main {
+   position:relative;
+   margin-left:300px;
+   margin-top:50px;
+}
+
+div#content-wrap{
+    margin:0 auto;
+    padding: 1% 2%;
+    margin-top: 3%;
+    width: 60%;
+    background-color:rgba(255,255,255,0.8);
+    border-radius: 50px;
+}
+
+div#story {
+    text-align: justify;
+    margin-left: 7%;
+    margin-right: 7%;
+    line-height: 200%;
+    font-size: 18pt;
+}
+
+div#credits {
+
+}
+
+div#content{
+    opacity: 1;
+}
+
+footer{
+    margin-top: 4%;
+    margin-bottom: 1%;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 10pt;
+    text-align: center;
+    line-height: 0.4em;
+}
+span{
+    margin-left:2.5em;
+}
+spanLittle{
+    margin-left:3.5em;
+}
+h1{
+    color: #001a00;
+    font-family: Alien, sans-serif;
+    text-decoration: none;
+    font-size: 30pt;
+}
+
+h2{
+    color: rgb(0, 77, 0);
+    font-family: Alien, sans-serif;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+a.menu{
+    color: #fff;
+    font-family: Alien, sans-serif;
+    text-decoration: none;
+    font-size: 28pt;
+}
+
+a.subMenu{
+    color: rgb(0, 77, 0);
+    font-family: Alien, sans-serif;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+a.subMenu:hover{
+    color: rgb(0, 77, 0);
+    font-family: Alien, sans-serif;
+    text-decoration: underline;
+    font-size: 20pt;
+}
+
+a.menu:hover{
+    color: #fff;
+    font-family: Alien, sans-serif;
+    text-decoration: underline;
+    font-size: 28pt;
+}
+
+
+a.menu:visited{
+    color: #fff;
+    font-family: Alien, sans-serif;  
+    text-decoration: none;
+    font-size: 28pt;
+}
